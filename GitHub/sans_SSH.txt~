@@ -1,0 +1,24 @@
+Creer un nouveau dossier et se mettre dedans avec un terminal.
+
+Initier Git :
+git init
+
+Ajouter un lien entre le git Local et GitHub :
+git remote add origin https://github.com/VSasyan/Tutoriels.git
+
+Modifier le proxy pour le terminal :
+export http_proxy='http://10.0.4.2:3128'
+export https_proxy='https://10.0.4.2:3128'
+
+Recuperer le contenu du GitHub :
+git pull origin master
+
+Penser à ajouter vos nouveaux fichiers :
+git add *
+git commit -m "Message"
+
+Envoyer le contenu sur GitHub :
+git push -u origin master
+Vous devez donner vos login GitHub.
+
+C'est terminé !

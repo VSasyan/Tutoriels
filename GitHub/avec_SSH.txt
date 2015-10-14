@@ -1,0 +1,27 @@
+Le SSH permet de créer un clef pour certifier votre machine. Plus besoin de rentrer le mdp à chaque fois quand vous commitez.
+
+Créer la clef ssh pour la machine :
+https://help.github.com/articles/generating-ssh-keys/
+
+La suite est pareille, seule change la création du lien (on fait un lien en ssh pas https).
+
+Creer un nouveau dossier et se mettre dedans avec un terminal.
+
+Initier Git :
+git init
+
+Ajouter un lien entre le git Local et GitHub :
+git remote add origin git@github.com:VSasyan/Tutoriels.git
+
+Recuperer le contenu du GitHub :
+git pull origin master
+
+Penser à ajouter vos nouveaux fichiers :
+git add *
+git commit -m "Message"
+
+Envoyer le contenu sur GitHub :
+git push -u origin master
+Vous devez donner vos login GitHub.
+
+C'est terminé !
