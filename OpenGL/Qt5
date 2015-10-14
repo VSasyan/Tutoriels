@@ -1,2 +1,5 @@
-LE cours qu'il nous faut :
-http://guillaume.belz.free.fr/doku.php?id=qt_opengl_-_introduction
+Faire une fenêtre avec Qt5 :
+http://doc.qt.io/qt-5/qtgui-openglwindow-example.html
+
+Voir aussi l'introduction au nouveau QtGui :
+http://doc.qt.io/qt-5/qtgui-index.html
