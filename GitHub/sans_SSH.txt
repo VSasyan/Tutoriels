@@ -19,5 +19,6 @@ git commit -m "Message"
 
 Envoyer le contenu sur GitHub :
 git push -u origin master
+Vous devez donner vos login GitHub.
 
 C'est terminé !
