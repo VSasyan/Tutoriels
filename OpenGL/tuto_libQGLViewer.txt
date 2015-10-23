@@ -8,4 +8,4 @@
 	* sudo touch QGLViewer.conf
 	* sudo vi QGLViewer.conf
 	* Ecrivez dedans: "/etc/local/lib/"
-4- Exécuter la commande: ldconfig
+4- Exécuter la commande: sudo ldconfig
