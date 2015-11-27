@@ -1,12 +1,12 @@
 Message GitHub de base
 ======================
 
-A la creation d'un projet vide, GitHub rapelle les commandes des bases, les voici :
+A la création d'un projet vide, GitHub rapelle les commandes des bases, les voici :
 
 HTTPS
 -----
 
-HTTPS : https://github.com/VSasyan/test.git
+    HTTPS : https://github.com/VSasyan/test.git
 
 …or create a new repository on the command line
 
@@ -26,7 +26,7 @@ HTTPS : https://github.com/VSasyan/test.git
 SSH
 ---
 
-SSH : git@github.com:VSasyan/test.git
+    SSH : git@github.com:VSasyan/test.git
 
 …or create a new repository on the command line
 
