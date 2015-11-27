@@ -36,10 +36,10 @@ KDE
 Ouvrir le Lanceur, et clic droit sur l'onglet Applications, Modifier les applications.
 Clic droit sur Développement, Nouvel élément.
 
-Nom :	        ArgoUML
-Icône :		/usr/local/lib/ArgoUML-0.34/icon/argouml2.svg
-Description :
-Commentaire :
-Commande :	/usr/local/bin/argouml
+Nom :         ArgoUML  
+Icône :		  /usr/local/lib/ArgoUML-0.34/icon/argouml2.svg  
+Description :   
+Commentaire :   
+Commande :	  /usr/local/bin/argouml  
 
 Enregistrer
