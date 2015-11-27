@@ -11,30 +11,37 @@ Utilisation de GitHub
 ---------------------
 
 Modifier le proxy pour le terminal :
-export http_proxy='http://10.0.4.2:3128'
-export https_proxy='https://10.0.4.2:3128'
+
+    export http_proxy='http://10.0.4.2:3128'
+    export https_proxy='https://10.0.4.2:3128'
 
 Créer un nouveau dossier et se mettre dedans avec un terminal :
-mkdir Tutoriel
+
+    mkdir Tutoriel
 
 Initier Git :
-git init
+
+    git init
 
 Ajouter un lien entre le git Local et GitHub :
-git remote add origin https://github.com/VSasyan/Tutoriels.git
+
+    git remote add origin https://github.com/VSasyan/Tutoriels.git
 
 Récupérer le contenu du GitHub :
-git pull origin master
+
+    git pull origin master
 
 Ces trois lignes peuvent être remplacées par un clonage :
-git clone https://github.com/VSasyan/Tutoriels.git
+
+    git clone https://github.com/VSasyan/Tutoriels.git
 
 Penser à ajouter vos nouveaux fichiers :
-git add *
-git commit -m "Message"
 
-Envoyer le contenu sur GitHub :
-git push -u origin master
-Vous devez donner vos login GitHub.
+    git add *
+    git commit -m "Message"
+
+Envoyer le contenu sur GitHub : (vous devez donner votre login GitHub)
+
+    git push -u origin master
 
 C'est terminé !
