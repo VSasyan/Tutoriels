@@ -40,7 +40,7 @@ Penser à ajouter vos nouveaux fichiers :
     git add *
     git commit -m "Message"
 
-Envoyer le contenu sur GitHub : (vous devez donner vos login GitHub.)
+Envoyer le contenu sur GitHub : (vous *ne* devez *plus* donner votre login GitHub)
 
     git push -u origin master  
 
