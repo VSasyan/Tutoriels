@@ -4,8 +4,8 @@ Installation de ArgoUML sous Debian
 Téléchargement
 --------------
 
-Dernière version (sous license Éclipse) sur [http://argouml-downloads.tigris.org/nonav/argouml-0.34/ArgoUML-0.34.tar.gz]
-Le mettre dans un dossier local ou temporaire, par exemple ~/Téléchargements
+Dernière version (sous license Éclipse) sur [][http://argouml-downloads.tigris.org/nonav/argouml-0.34/ArgoUML-0.34.tar.gz]
+Le mettre dans un dossier local ou temporaire, par exemple `~/Téléchargements`
 
 Extraction
 ----------
@@ -17,7 +17,7 @@ Installation
 
 (source : README et commentaires)
 
-Requérez les privilèges administrateur (ou du moins de staff). On va l'installer proprement dans /usr/local/lib/.
+Requérez les privilèges administrateur (ou du moins de staff). On va l'installer proprement dans `/usr/local/lib/`.
 
     /home/<>/Téléchargements/ # cp -r ArgoUML-0.34 /usr/local/lib/           # ou mv, hein !
 
