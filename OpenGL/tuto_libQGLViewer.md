@@ -10,4 +10,4 @@ Dans le répertoire où se trouve votre projet, vous allez trouver un dossier in
     sudo touch QGLViewer.conf
     sudo echo /etc/local/lib/ > QGLViewer.conf
 	
-xécuter la commande : `sudo ldconfig`
+Exécutez la commande : `sudo ldconfig`
