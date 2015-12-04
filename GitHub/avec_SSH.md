@@ -9,6 +9,19 @@ Plus besoin de rentrer le mdp à chaque fois quand vous commitez.
 
 Créer la clef ssh pour la machine : https://help.github.com/articles/generating-ssh-keys/
 
+Utiliser cette clef pour GitHub : dans `~/.ssh/config` ajouter :
+
+    Host github
+        HostName     github.com
+        User         git
+        IdentityFile ~/.ssh/githubKey
+        
+Et empêchez la lecture de ce fichier sensible :
+
+    chmod go-rwx ~/.ssh/config
+    
+(Source : (StackOverflow)[http://stackoverflow.com/a/4246809])
+
 
 Utilisation de GitHub
 ---------------------
@@ -26,6 +39,9 @@ Initier Git :
 Ajouter un lien entre le git Local et GitHub :
 
     git remote add origin git@github.com:VSasyan/Tutoriels.git
+    
+Si vous avez configuré une clef en particulier pour GitHub par la méthode
+ci-dessus, l'URL devient : `github:VSasyan/Tutoriels.git`
 
 Récupérer le contenu du GitHub :
 
