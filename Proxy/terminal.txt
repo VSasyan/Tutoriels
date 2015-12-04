@@ -1,3 +1,16 @@
 Modifier le proxy pour le terminal :
 export http_proxy='http://10.0.4.2:3128'
 export https_proxy='https://10.0.4.2:3128'
+
+Ou bien :
+---------
+
+Dans `/etc/profile` rajouter :
+    
+    # Suppress Debian tweet
+    setterm -blength 0
+
+    # Proxy parameters
+    export HTTP_PROXY="http://10.0.4.2:3128"
+    export HTTPS_PROXY="https://10.0.4.2:3128"
+
