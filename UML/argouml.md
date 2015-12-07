@@ -19,7 +19,7 @@ Installation
 
 Requérez les privilèges administrateur (ou du moins de staff). On va l'installer proprement dans `/usr/local/lib/`.
 
-    /home/<>/Téléchargements/ # cp -r ArgoUML-0.34 /usr/local/lib/           # ou mv, hein !
+    /home/<>/Téléchargements/ # cp -r argouml-0.34 /usr/local/lib/           # ou mv, hein !
 
 On fait un lien pour que ce soit plus utilisable
 
