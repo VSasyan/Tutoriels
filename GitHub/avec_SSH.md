@@ -20,7 +20,10 @@ Et empêchez la lecture de ce fichier sensible :
 
     chmod go-rwx ~/.ssh/config
     
-(Source : (StackOverflow)[http://stackoverflow.com/a/4246809])
+(Source : [StackOverflow](http://stackoverflow.com/a/4246809))
+
+
+Pour retenir la passephrase pendant une session : [Ask Ubuntu](http://askubuntu.com/a/423473)
 
 
 Utilisation de GitHub
