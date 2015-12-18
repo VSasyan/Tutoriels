@@ -1,4 +1,4 @@
-Récuperer les fichier d'un git
+Récupérer les fichiers d'un git
 ==============================
 
 Pourquoi
