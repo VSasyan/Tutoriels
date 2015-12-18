@@ -1,10 +1,18 @@
 Récuperer les fichier d'un git
 ==============================
 
+Pourquoi
+--------
 
-Pour récuperer automatiquement les fichiers d'un git, sans en récupérer l'historique :
+Il peut-être intéressant de récupérer uniquement les fichiers stockés sur le git et non pas l'historique (site web sur le serveur, ...).
 
-    git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo && rm -rf !$/.git
+Comment
+-------
 
 On est obligé de récupérer le dossier `.git`, l'option `--depth=1` permet de ne récupérer qu'un seul rang d'historique. 
 Ensuite le dossier `.git` est supprimé (`rm -rf !$/.git`).
+
+Voici donc la commande pour récupérer tous les fichiers d'un git, sans en conserver l'historique :
+
+    git clone --depth=1 --branch=master git://someserver/somerepo dirformynewrepo && rm -rf !$/.git
+    
