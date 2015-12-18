@@ -4,7 +4,7 @@ Récuperer les fichier d'un git
 Pourquoi
 --------
 
-Il peut-être intéressant de récupérer uniquement les fichiers stockés sur le git et non pas l'historique (site web sur le serveur, ...).
+Il peut-être intéressant de récupérer uniquement les fichiers stockés sur le git et non pas l'historique, dans le `.git` (site web sur le serveur, ...).
 
 Comment
 -------
