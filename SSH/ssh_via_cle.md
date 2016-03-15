@@ -19,15 +19,22 @@
 
 ### Forcer OpenMPI à n'utiliser que eth0
 
-Créer le ficheir `~/.openmpi/mca_paramters.conf` et écrire `btl_tcp_if_include=eth0`.
+Créer le fichier `~/.openmpi/mca_parameters.conf` et écrire `btl_tcp_if_include=eth0` :
 
-### Lister la machine
+    mkdir ~/.openmpi
+    echo "btl_tcp_if_include=eth0" >> ~/.openmpi/mca_parameters.conf
+
+### Lister les machines
 
 Créer un fichier `hosts_names` :
 
-    172.31.57.62
-    172.31.57.63
-    172.31.57.64
-    172.31.57.65
-    172.31.57.66
-    172.31.57.70
+    piensg003 slots=4 max-slots=4
+    piensg004 slots=4 max-slots=4
+    piensg005 slots=4 max-slots=4
+    piensg006 slots=4 max-slots=4
+    piensg007 slots=4 max-slots=4
+    #piensg011 slots=4 max-slots=4
+
+### Variable d'environnement (optionnel)
+
+Définir `export MPI_HOSTS=/home/pi/vsasyan/hosts_name` :
