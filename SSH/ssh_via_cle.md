@@ -43,4 +43,4 @@ Définir `export MPI_HOSTS=/home/pi/vsasyan/hosts_name` :
 
 Il faut copier l'exécutable par exemple en ssh :
 
-    ssh pi@piensg011 'mkdir -p /home/pi/vsasyan' && scp /home/pi/vsasyan/multi_mandel.o pi@piensg011:/home/pi/vsasyan/multi_mandel.o
+    ssh pi@piensg011 'mkdir -p /home/pi/vsasyan' && scp /home/pi/vsasyan/multi_mandel pi@piensg011:/home/pi/vsasyan/
