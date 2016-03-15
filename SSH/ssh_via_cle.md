@@ -38,3 +38,9 @@ Créer un fichier `hosts_names` :
 ### Variable d'environnement (optionnel)
 
 Définir `export MPI_HOSTS=/home/pi/vsasyan/hosts_name` :
+
+### Copier l'exécutable
+
+Il faut copier l'exécutable par exemple en ssh :
+
+    ssh pi@piensg011 'mkdir -p /home/pi/vsasyan' && scp /home/pi/vsasyan/multi_mandel.o pi@piensg011:/home/pi/vsasyan/multi_mandel.o
