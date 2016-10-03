@@ -2,9 +2,28 @@
 
 ## Instructions
 
+### Démarrage de `fdisk`
+
 * Passer root : `su -`
-* 
-* Formater la clef : `mkfs.vfat -F32 -v /dev/sdb1`
+* Démonter la clef si besoin : `umount /dev/sdb*`
+* Lancer fdisk sur la clef : `fdisk /dev/sdb`
+
+### Utilisation de `fidsk`
+
+* Lister toutes les partitions en tapant `p`
+* Supprimer les partitions en tapant `d` puis le numéro de la partition (1, 2, 3 ou 4)
+* Créer une nouvelle partion en tapant `n` puis 
+  * `p` pour une nouvelle partition primaire
+  * `1` pour créer la première partition
+  * ne rien rentrer deux fois pour créer une partition du premier au dernier cylindre
+* Modifier la type de la partition en FAT32 : taper `t`, puis `1` et enfin `c`
+* Ecrire toutes ses modifications en tapapnt `w`
+
+### Finalisation
+
+* Reformater la clef : `mkfs.vfat -F32 -v /dev/sdb1`
+
+C'est terminé !
 
 ## Sources
 
