@@ -8,7 +8,7 @@
 
     cat ~/.ssh/id_rsa.pub | ssh pi@piensg006 "cat >> ~/.ssh/authorized_keys"
 
-### Ajouter l'option dans `~/.ssh/config`
+### Ajouter l'option dans `~/.ssh/config` (si nécessaire)
 
     Host piensg003
         HostName     piensg003
